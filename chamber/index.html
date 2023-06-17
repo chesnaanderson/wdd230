@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chesna Anderson - WDD 230 - Web Fronted Development</title>
+    <title>Chamber Site Plan</title>
     <meta name="description" content="WDD 230 - Web Fronted Development - Chesna Anderson - course assignment portal">
     <meta name="author" content="Chesna Anderson">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Audiowide%7CSofia%7CTrirong" rel="stylesheet">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
     <link rel="icon" href="https://www.travelandleisure.com/thmb/O_l4b5JDWtEWKQ7mE7PoA3rQdVk=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/cascade-mountains-range-USMNTNS0720-db9bdf21ee2e47b1868232c551c01006.jpg">
@@ -23,51 +23,80 @@
 <body>
   <div class="header">
     <div class="header-right">
-      <img src="images/mountians_in_utah.jpg" alt="mountians_in_utah" width="160" 
+      <img src="images/mountians_in_utah.jpg" alt="Utah Mountians" width="160" 
       height="180"> 
     </div>
-    <h1 class="logo">Bountiful Chamber of Comerce</h1>
+    <h1 class="logo">Bountiful Chamber of Commerce</h1>
   </div>
+  <button id="menu"></button>
     <nav>
-      <button id="menu"></button>
       <p>Dark Mode</p>
       <div id="mode">
         ☑️
-      </div>
       <ul>
-        <li class="active"><a href="https://chesnaanderson.github.io/wdd230/">Home</a></li>
-        <li><a href="url">Chamber</a></li>
+        <li><a href="https://chesnaanderson.github.io/wdd230/">Home</a></li>
+        <li class="active"><a href="https://chesnaanderson.github.io/wdd230/week01/chamber/index.html">Chamber</a></li>
         <li><a href="https://chesnaanderson.github.io/wdd230/week01/chamber-site-plan.html">Site Plan</a></li>
         <li><a href="url">Survey</a></li>
       </ul>
     </nav>
   <main>
-      <h2>WDD 230: Web Fronted Development</h2>
-      <div class="row"></div>
-        <section class="column">
-          <section class="card">
-            <div class="container">
-              <h3>Learning Activities</h3>
-              <ul>
-                <li>Week 01: <a href="https://chesnaanderson.github.io/wdd230/week01/holygrail.html">holygrail</a>|<a href="https://chesnaanderson.github.io/wdd230/week01/media-query.html">mediaquery</a></li>
-                <li>Week 02: <a href="https://chesnaanderson.github.io/wdd230/week02/design.html">Design</a>|<a href="https://codepen.io/chesnaanderson/pen/ExOPNdZ">CodePen</a>|<a href="https://chesnaanderson.github.io/wdd230/week02/bom.html">top10bom</a></li>
-                <li>Week 03: </li>
-                <li>Week 04: </li>
-                <li>Week 05: </li>
-              </ul>
-            </div>
-          </section>
-        </section>
-
-    <div class="column">
-      <section class="card">
-        <h3>Information</h3>
-        <p>Weather</p>
-        <p>Number of visits</p>
-      </section>
+    <h2>Bountiful Chamber of Commerce</h2>
+    <div class="row">
+      <div class="column">
+        <div class="card">
+          <h3>Site Purpose</h3>
+            <p>The Bountiful Chamber of Commerce is a place for people and businesses alike to come and disocver more about Bountiful Utah. Come find business-to-business networking and events!</p> 
+        </div>
+      </div>
+      <div class="column">
+        <div class="card">
+          <h3>Scenarios:</h3>
+          <ul>
+            <li>What events will the chamber be holding this month that promote business-to-business networking?</li>
+            <li>Where can I find contact information for the chamber's board of directors?</li>
+            <li>What has been the population growth in the area?</li>
+          </ul>
+        </div>
+      </div>
+      <div class="column">
+        <div class="card">
+          <h3>Fonts</h3>
+            <ul>
+              <li class="font">
+                Sofia - titles
+              </li>
+              <li class="font2">
+                Trirong - everyting else
+              </li>
+            </ul> 
+        </div>
+      </div>
+      <div class="column">
+        <div class="card1">
+          <h3>Color schema</h3>
+          <ul>
+            <li class="color1">Battleship grey #88958D - nav and footers</li>
+            <li class="color2">Midnight green #19535F - header</li>
+            <li class="color3">China rose #985F6F - cards</li>
+          </ul>
+        </div>
+      </div>
     </div>
-
-  </main>
+    <div class="row">
+      <div class="column">
+        <div class="card">
+          <h3>Wireframe 1</h3>
+          <img src="images/NewScreen-63fa7.jpeg" alt="wireframe1" width="270"  height="220">
+        </div>
+      </div>
+      <div class="column">
+        <div class="card"> 
+          <h3>Wireframe 2</h3>
+          <img src="images/NewScreen-60cd7.jpeg" alt="wireframe2" width="200"  height="350"> 
+        </div>
+      </div>
+    </div>
     <footer>
     <p>
       copyright &copy; <span id="currentYear"></span> &#128151; Chesna Anderson - Utah US &#128151;</p>
@@ -76,11 +105,80 @@
     <a href="https://jigsaw.w3.org/css-validator/check/referer">
         <img style="border:0;width:88px;height:31px"
             src="https://jigsaw.w3.org/css-validator/images/vcss-blue"
-            alt="Valid CSS!" >
+            alt="Valid CSS!">
     </a>
     </p>
   </footer>
   <script src="scripts/getDates.js"></script>
   <script src="scripts/darkmode.js"></script>
+  <script src="scripts/hamburgur.js"></script>
 </body>
 </html>
+
+ <!-- <div class="row">
+        <div class="column">
+          <div class="card">
+            <div class="container">
+              <h3>Site Purpose</h3>
+              <ul>
+                <p>The Bountiful Chamber of Commerce acts as a regional economic catalyst, leadership convener and community champion. We promote business through member services, economic and community development, and public policy that balances economic prosperity</p> 
+              </ul>
+            </div>  
+          </div>
+          <div class="card">
+            <div class="container">
+              <h3>Scenarios:</h3>
+              <li>What events will the chamber be holding this month that promote business-to-business networking?</li>
+              <li>Where can I find contact information for the chamber's board of directors?</li>
+              <li>What has been the population growth in the area?</li>
+            </div>
+         </div>
+          <div class="card">
+            <div class="container">
+              <h3>Wireframes</h3>
+              <img src="images/NewScreen-63fa7.jpeg" alt="wireframe1" width="200"  height="220"> 
+              <img src="images/NewScreen-f91ee.jpeg" alt="wireframe2" width="200"  height="220"> 
+            </div>
+          </div>
+          <div class="card">
+            <div class="container">
+              <h3>Color schema</h3>
+              <li>Battleship grey #88958D</li>
+              <li>Pruce #C799A6</li>
+              <li>Mauve #E4C1F9</li>
+            </div>
+          </div>
+        </div>
+      </div> -->
+    </main>
+    <!-- <div class="column">
+      <section class="card">
+        <h3>Scenarios:</h3>
+        <li>What events will the chamber be holding this month that promote business-to-business networking?</li>
+        <li>Where can I find contact information for the chamber's board of directors?</li>
+        <li>What has been the population growth in the area?</li>
+      </section>
+    </div> 
+  <div class="row">
+    <section class="column">
+       <section class="card">
+        <div class="container">
+          <h3>Wireframes</h3>
+          <img src="images/NewScreen-63fa7.jpeg" alt="wireframe1" width="200"  height="220"> 
+          <img src="images/NewScreen-f91ee.jpeg" alt="wireframe2" width="200"  height="220"> 
+        </div>
+      </section> 
+    </section>
+  </div> -->
+  <!-- <div class="row">
+    <section class="column">
+      <section class="card">
+        <div class="container">
+          <h3>Color schema</h3>
+          <li>Battleship grey #88958D</li>
+          <li>Pruce #C799A6</li>
+          <li>Mauve #E4C1F9</li>
+        </div>
+      </section>
+    </section>
+  </div> -->
