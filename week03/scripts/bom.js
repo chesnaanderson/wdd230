@@ -49,7 +49,7 @@
           deleteChapter(li.textContent);
           input.focus();
         });
-        console.log('I like to type out the code myself to try to understand it.')
+        console.log('I like to type out the code myself and try to understand it.')
       }
       function setChapterList() {
         localStorage.setItem('myFavBOMList', JSON.stringify(chaptersArray));
