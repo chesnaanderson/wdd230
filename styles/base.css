@@ -149,7 +149,32 @@ main {
     text-align: center;
     
 }
-  
+.website-counter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .website-counter {
+    background-color: #c4897a;
+    height: 20px;
+    width: 80px;
+    color: rgb(5, 5, 5);
+    border-radius: 30px;
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+
+  #reset {
+    margin-top: 20px;
+    background-color: #008cba;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 8px 20px;
+    color: white;
+    border: 0;
+  }
 /* aside {
     background: yellow;
     grid-column: 2 / 3;
