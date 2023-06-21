@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Images</title>
+    <meta name="description" content="description of page using keywords">
+    <meta name="author" content="Chesna Anderson">
+    <link rel="stylesheet" href="styles/responsive-images.css">
+</head>
+<body>
+    <header><h1>Responsive Images</h1></header>
+    <nav></nav>
+    <main>
+        <main>
+            <div class="hero">
+                <picture>
+                    <source srcset="images/hero_small.webp" media="(max-width: 500px)">
+                    <source srcset="images/hero_medium.webp" media="(max-width: 1000px)">
+                    <img src="images/hero_large.webp" alt="Bountiful Temple" width="1500" height="750">
+                </picture>
+            </div>
+        </main>
+    </main>
+    <footer>
+        <p>copyright &copy; <span id="currentYear"></span> &#128151; Chesna Anderson - Utah US &#128151;</p>
+      <p>Last Modified <span id="lastModified"></span></p>
+    </footer>
+    <script src="scripts/lazyload.js"></script>
+</body>
+</html>
