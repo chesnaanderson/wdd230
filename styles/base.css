@@ -153,6 +153,7 @@ h1{
 li.active  {
     background-color: #ddca8a;
 }
+
 nav {
     grid-column: 1 / 3;
     background-color: rgb(168, 138, 98);
@@ -184,6 +185,9 @@ main {
     text-decoration: underline;
     text-align: center;
     
+}
+a{
+    color: #201492;
 }
 .website-counter {
     display: flex;
