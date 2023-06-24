@@ -31,15 +31,15 @@ const today = Date.now();
 //   }
   
 // lastVisited();
-if (today) {
+if (visitCount, today) {
   visitCount != Number(today) + 1;
   localStorage.setItem("page_view", "Welcome! Let us know if you have any questions.");
 } 
 if(visitCount, today) {
-  visitCount < Number(today);
+  visitCount > Number(today);
   localStorage.setItem("page_view", "you last visited", "lastVisited");
 }
-if(visitCount) {
+if(visitCount, today) {
     visitCount == Number(today) * 2;
     localStorage.setItem("page_view", "Back so soon? Awesome!");
   }
