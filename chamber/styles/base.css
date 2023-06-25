@@ -387,126 +387,6 @@ div.container {
 	font-family:"Great Vibes", serif;
   color: rgb(253, 250, 253);
 }
-.label2 {
-	position:absolute;
-	top: 50px;
-	left: 270px;
-	/* background: radial-gradient(#fff, #a8adc2); */
-	/* border: 1px solid rgba(0,0,0,.75); */
-	padding: 1.5rem;
-	box-shadow: 0 0 0rem #fff;
-	opacity: 0.75;
-	/* Buenas */
-}
-
-.label2 p {
-	margin: 0;
-	padding: .25rem;
-	font-weight: 700;
-	font-size: 1rem;
-	font-family:"Great Vibes", serif;
-  color: rgb(253, 250, 253);
-}
-.label3 {
-	position:absolute;
-	top: 50px;
-	left: 470px;
-	/* background: radial-gradient(#fff, #a8adc2); */
-	/* border: 1px solid rgba(0,0,0,.75); */
-	padding: 1.5rem;
-	box-shadow: 0 0 0rem #fff;
-	opacity: 0.75;
-	/* Buenas */
-}
-
-.label3 p {
-	margin: 0;
-	padding: .25rem;
-	font-weight: 700;
-	font-size: 1rem;
-	font-family:"Great Vibes", serif;
-  color: rgb(253, 250, 253);
-}
-.label4 {
-	position:absolute;
-	top: 50px;
-	left: 670px;
-	/* background: radial-gradient(#fff, #a8adc2); */
-	/* border: 1px solid rgba(0,0,0,.75); */
-	padding: 1.5rem;
-	box-shadow: 0 0 0rem #fff;
-	opacity: 0.75;
-	/* Buenas */
-}
-
-.label4 p {
-	margin: 0;
-	padding: .25rem;
-	font-weight: 700;
-	font-size: 1rem;
-	font-family:"Great Vibes", serif;
-  color: rgb(253, 250, 253);
-}
-.label5 {
-	position:absolute;
-	top: 250px;
-	left: 170px;
-	/* background: radial-gradient(#fff, #a8adc2); */
-	/* border: 1px solid rgba(0,0,0,.75); */
-	padding: 1.5rem;
-	box-shadow: 0 0 0rem #fdfdfd;
-	opacity: 0.75;
-	/* Buenas */
-}
-
-.label5 p {
-	margin: 0;
-	padding: .25rem;
-	font-weight: 700;
-	font-size: 1rem;
-	font-family:"Great Vibes", serif;
-  color: rgb(253, 253, 253);
-}
-.label6 {
-	position:absolute;
-	top: 250px;
-	left: 370px;
-	/* background: radial-gradient(#fff, #a8adc2); */
-	/* border: 1px solid rgba(0,0,0,.75); */
-	padding: 1.5rem;
-	box-shadow: 0 0 0rem #fff;
-	opacity: 0.75;
-	/* Buenas */
-}
-
-.label6 p {
-	margin: 0;
-	padding: .25rem;
-	font-weight: 700;
-	font-size: 1rem;
-	font-family:"Great Vibes", serif;
-  color: rgb(253, 250, 253);
-}
-.label7 {
-	position:absolute;
-	top: 250px;
-	left: 570px;
-	/* background: radial-gradient(#fff, #a8adc2); */
-	/* border: 1px solid rgba(0,0,0,.75); */
-	padding: 1.5rem;
-	box-shadow: 0 0 0rem #fff;
-	opacity: 0.75;
-	/* Buenas */
-}
-
-.label7 p {
-	margin: 0;
-	padding: .25rem;
-	font-weight: 700;
-	font-size: 1rem;
-	font-family:"Great Vibes", serif;
-  color: rgb(253, 250, 253);
-}
 .content img{
   padding: 20px;
   border-radius: 50px 50px;
@@ -698,6 +578,15 @@ aside {
     }
     .header-right {
       float: none;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .hero-text {
+      text-align: center;
+      top: 20%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: rgb(50, 32, 53);
     }
   }
 
