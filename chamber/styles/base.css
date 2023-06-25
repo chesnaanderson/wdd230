@@ -242,33 +242,7 @@ h3 {font-family: "Trirong", serif;}
   clear: both;
 } */
 
-@media screen and (max-width: 600px) {
-  .column {
-    width: 100%;
-    display: block;
-    margin-bottom: 20px;
-  }
-}
 
-@media screen and (max-width: 600px) {
-  .header a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
-  .header-right {
-    float: none;
-  }
-}
-
-@media (min-width: 640px) {
-nav ul {
-  display: flex;
-}
-nav ul li {
-  flex: 1 1 100%;
-}
-}
 
 
 
@@ -588,8 +562,24 @@ aside {
       transform: translate(-50%, -50%);
       color: rgb(50, 32, 53);
   }
-  
+
+
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .header-right {
+    float: none;
+  }
 }
+
 @media (min-width: 640px){  
   nav ul {
     display: flex;
