@@ -101,3 +101,181 @@
 
 </body>
 </html>
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+    <meta name="description" content="WDD 230 - Web Fronted Development - Chesna Anderson - Survey">
+    <meta name="author" content="Chesna Anderson">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="icon" href="https://www.travelandleisure.com/thmb/O_l4b5JDWtEWKQ7mE7PoA3rQdVk=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/cascade-mountains-range-USMNTNS0720-db9bdf21ee2e47b1868232c551c01006.jpg">
+    <meta property="og:title" content="Chesna Anderson">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://www.travelandleisure.com/thmb/O_l4b5JDWtEWKQ7mE7PoA3rQdVk=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/cascade-mountains-range-USMNTNS0720-db9bdf21ee2e47b1868232c551c01006.jpg">
+    <meta property="og:url" content="https://chesnaanderson.github.io/wdd230/">
+    <meta name="twitter:card" content="mountians_in_utah">
+</head>
+<body>
+ <div class="header">
+    <div class="header-right">
+      <img src="images/2023_profilepic.webp" alt="ProfilePic" loading="lazy" width="160" 
+      height="180"> 
+    </div>
+    <h1 class="logo">Chesna Anderson</h1>
+  </div> 
+  <nav>
+    <ul>
+      <li><a href="https://chesnaanderson.github.io/wdd230/">Home</a></li>
+      <li><a href="https://chesnaanderson.github.io/wdd230/chamber/index.html">Chamber</a></li>
+      <li><a href="https://chesnaanderson.github.io/wdd230/week01/chamber-site-plan.html">Site Plan</a></li>
+      <li><a href="https://chesnaanderson.github.io/wdd230/chamber/discover.html">Discover</a></li>
+      <li class="active"><a href="url">Survey</a></li>
+    </ul>
+  </nav>
+  <main>
+    <h1>Join Us!</h1>
+    <div class="wrapper">
+        <aside>
+        <table>
+            <caption>NP Membership is for non profit organizations and there is no fee.</caption>
+            <thead>
+                <tr>
+                    <th colspan="5" scope="colgroup">Membership benifits</th>
+                </tr>
+                <tr>
+                    <th scope="col"></th>
+                    <th scope="col">NP Member</th>
+                    <th scope="col">Bronze Member</th>
+                    <th scope="col">Silver Member</th>
+                    <th scope="col">Gold Member</th>
+                  
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Event access</td>
+                    <td>✔️</td>
+                    <td>✔️</td>
+                    <td>✔️</td>
+                    <td>✔️</td>
+                </tr>
+                <tr>
+                    <td>Networking oportunities</td>
+                    <td>✔️</td>
+                    <td>✔️</td>
+                    <td>✔️</td>
+                    <td>✔️</td>
+                </tr>
+                
+                <tr>
+                    <td>Cool stuff</td>
+                    <td>❌</td>
+                    <td>❌</td>
+                    <td>✔️</td>
+                    <td>✔️</td>
+                </tr>
+                <tr>
+                    <td>Super cool stuff</td>
+                    <td>❌</td>
+                    <td>❌</td>
+                    <td>❌</td>
+                    <td>✔️</td>
+                </tr>
+            </tbody>
+        </table>
+        </aside>
+    <div class="content">
+    <form method="get" action="thankyou.html">
+    <fieldset>
+        <!--Form-->
+        <legend>Form</legend>
+
+        <label class="top">First Name* 
+            <input type="text" id="fname" name="fname" required></label>
+
+            <label class="top">Last Name* 
+                <input type="text" id="lname" name="lname" required></label>
+        
+            <label class="top">Title/Position* 
+                <input type="text" id="title" name="title" pattern=".{7,}" title="Must have a minumum of 7 alpha characters, hyphens, and spaces." required></label>
+
+            <label class="top">Email* 
+                <input type="email" id="email" name="email" title="Please enter a valid email address" required></label>
+
+            <label class="top">Phone*
+                <input type="tel" id="tel" name="phone" placeholder="1235551234" required></label>
+            
+            <label class="top">Business/Organization*
+                <input type="text" id="business" name="business" required></label>  
+
+           <label class="top">Desired Membership
+                <select type="mem" name="Membership" id="member" title="Please Select">
+                <option value="">Please Select</option>
+                <option value="NP Membership ">NP Membership </option>
+                <option value="Bronze Membership">Bronze Membership</option>
+                <option value="Silver Membership">Silver Membership</option>
+                <option value="Gold Membership">Gold Membership</option>
+                </select>
+            </label> 
+
+            <label class="top">Business description
+                <input type="text area" id="description" name="description"></label>
+   
+        <label for="r">Rate us</label>
+            <div id="rangevalue">1</div>
+            <input type="range" id="r" name="r" min="1" max="10" value="0" step="1" list="rangevalues">
+            <datalist id="rangevalues">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </datalist>
+        <input type="hidden" name="timeStampID" id='timeStamp' />
+    </fieldset>
+   <input type="submit" value="Join Us!" class="submitBtn">
+    </form>
+    </div>
+   </div>
+  </main>
+    <footer>
+    <p>
+      copyright &copy; <span id="currentYear"></span> &#128151; Chesna Anderson - Utah US &#128151;</p>
+    <p>Last Modified <span id="lastModified"></span></p>
+    <p>
+    <a href="https://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="https://jigsaw.w3.org/css-validator/images/vcss-blue"
+            alt="Valid CSS!" >
+    </a>
+    </p>
+  </footer>
+  <script src="scripts/getDates.js"></script>
+  <script src="scripts/darkmode.js"></script>
+  <script src="scripts/hamburgur.js"></script>
+  <script src="scripts/password.js"></script>
+  <script src="scripts/rating.js"></script>
+  <script defer src="scripts/pagevisitcounter.js"></script>
+
+</body>
+</html>
