@@ -1,0 +1,88 @@
+{
+    "familyName" : "The Andersons",
+    "movedIn" : "4/13/2022",
+    "numMembers" : 10,
+    "bishopVisit" : true,
+    "members" : [
+      {
+        "name" : "Benjamin Anderson",
+        "age" : 43,
+        "gender" : "male",
+        "birthDate" : [
+         "08/14/1979"
+        ]
+      },
+      {
+        "name" : "Tammy Anderson",
+        "age" : 42,
+        "gender" : "female",
+        "birthDate" : [
+         "10/01/1980"
+        ]
+      },
+      {
+        "name" : "Laura Anderson",
+        "age" : 21,
+        "gender" : "female",
+        "birthDate" : [
+         "08/21/2001"
+        ]
+      },
+      {
+        "name" : "Chesna Anderson",
+        "age" : 20,
+        "gender" : "female",
+        "birthDate" : [
+         "05/13/2003"
+        ]
+      },
+      {
+        "name" : "Hero Anderson",
+        "age" : 17,
+        "gender" : "female",
+        "birthDate" : [
+         "06/17/2006"
+        ]
+      },
+      {
+        "name" : "Soren Anderson",
+        "age" : 14,
+        "gender" : "male",
+        "birthDate" : [
+         "08/30/2009"
+        ]
+      },
+      {
+        "name" : "Atticus Anderson",
+        "age" : 12,
+        "gender" : "male",
+        "birthDate" : [
+         "03/11/20011"
+        ]
+      },
+      {
+        "name" : "Talitha Anderson",
+        "age" : 10,
+        "gender" : "female",
+        "birthDate" : [
+         "06/10/2013"
+        ]
+      },
+      {
+        "name" : "Hinckley Anderson",
+        "age" : 7,
+        "gender" : "female",
+        "birthDate" : [
+         "09/24/2016"
+        ]
+      },
+      {
+        "name" : "Octavian Anderson",
+        "age" : 5,
+        "gender" : "male",
+        "birthDate" : [
+         "09/25/2018"
+        ]
+      }
+    ]
+  }
