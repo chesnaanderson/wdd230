@@ -1,0 +1,81 @@
+{
+    "weeks": [
+      {
+        "week": "Week 1",
+        "links": [
+          {
+            "url":"week01/holygrail.html",
+            "title":"HG Layout"
+          },
+          {
+            "url":"week01/media-query.html",
+            "title":"mQueries"
+          },
+          {
+            "url":"week01/chamber-site-plan.html",
+            "title":"ChamberPlan"
+          }
+        ]
+      },
+         {
+            "week": "Week 2",
+            "links": [
+              {
+                "url":"week02/bom.html",
+                "title":"bom"
+              },
+              {
+                "url":"week02/design.html",
+                "title":"Design"
+              }
+            ]
+        },
+              {
+                "week": "Week 3",
+                "links": [
+                  {
+                    "url":"week03/bom.html",
+                    "title":"bom"
+                  },
+                  {
+                    "url":"week03/lazyload.html",
+                    "title":"lazyload"
+                  },
+                  {
+                    "url":"week03/responsive-images.html",
+                    "title":"responsive-images"
+                  }
+                ]
+              },
+                  {
+                    "week": "Week 4",
+                    "links": [
+                      {
+                        "url":"week04/combinators.html",
+                        "title":"combinators"
+                      },
+                      {
+                        "url":"week04/tablebuild.html",
+                        "title":"tablebuild"
+                      }
+                    ]
+                  },
+                      {
+                        "week": "Week 5",
+                        "links": [
+                          {
+                            "url":"week05/prophets.html",
+                            "title":"prophets"
+                          },
+                          {
+                            "url":"week05/weather.html",
+                            "title":"weather"
+                          },
+                          {
+                            "url":"week05/stuff.json",
+                            "title":"json"
+                          }
+                        ]
+                      }
+                ]
+}
