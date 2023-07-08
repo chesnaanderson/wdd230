@@ -1,17 +1,18 @@
 {
-  "companies": [
+  "prophets": [
     {
-      "name": "company 1",
+      "name": "company",
+      "lastname": "1",
       "members":
       [
         {
-          "name" : "Benjamin",
-          "lastname": "Anderson"
+          "person" : "Benjamin",
+          "last": "Anderson"
           
         },
         {
-            "name" : "Tom ",
-            "lastname" : "Wick"
+            "person" : "Tom ",
+            "last" : "Wick"
         }
     ],
       "address": "3456 black dr. Bountiful Utah",
@@ -23,17 +24,18 @@
       "imageurl": "https://assets.churchofjesuschrist.org/ec/f8/ecf80a88e31429d0aa0eeec6e2c74851a4bf4235/nauvoo_temple_joseph_art_lds.jpeg"
     },
     {
-        "name": "company 2",
+      "name": "company",
+      "lastname": "1",
         "members":
         [
           {
-            "name" : "Benjamin",
-            "lastname": "Franklin"
+            "person" : "Benjamin",
+            "last": "Franklin"
             
           },
           {
-              "name" : "Tommy",
-              "lastname" : "Grace"
+              "person" : "Tommy",
+              "last" : "Grace"
           }
       ],
         "address": "3456 gg lane Bountiful Utah",
@@ -45,17 +47,18 @@
         "imageurl": "https://assets.churchofjesuschrist.org/ec/f8/ecf80a88e31429d0aa0eeec6e2c74851a4bf4235/nauvoo_temple_joseph_art_lds.jpeg"
       },
       {
-        "name": "company 3",
+        "name": "company",
+      "lastname": "1",
         "members":
         [
           {
-            "name" : "Benjamin",
-            "lastname": "Anderson"
+            "person" : "Benjamin",
+            "last": "Anderson"
             
           },
           {
-              "name" : "Tom Wick",
-              "lastname" : "Wick"
+              "person" : "Tom Wick",
+              "last" : "Wick"
           }
       ],
         "address": "3456 black dr. Bountiful Utah",
@@ -67,17 +70,18 @@
         "imageurl": "https://assets.churchofjesuschrist.org/ec/f8/ecf80a88e31429d0aa0eeec6e2c74851a4bf4235/nauvoo_temple_joseph_art_lds.jpeg"
       },
       {
-        "name": "company 4",
+        "name": "company",
+      "lastname": "1",
         "members":
         [
           {
-            "name" : "Benjamin",
-            "lastname": "Anderson"
+            "person" : "Benjamin",
+            "last": "Anderson"
             
           },
           {
-              "name" : "Tom Wick",
-              "lastname" : "Wick"
+              "person" : "Tom Wick",
+              "last" : "Wick"
           }
       ],
         "address": "3456 black dr. Bountiful Utah",
@@ -89,17 +93,18 @@
         "imageurl": "https://assets.churchofjesuschrist.org/ec/f8/ecf80a88e31429d0aa0eeec6e2c74851a4bf4235/nauvoo_temple_joseph_art_lds.jpeg"
       },
       {
-        "name": "company 5",
+        "name": "company",
+      "lastname": "1",
         "members":
         [
           {
-            "name" : "Benjamin",
-            "lastname": "Anderson"
+            "person" : "Benjamin",
+            "last": "Anderson"
             
           },
           {
-              "name" : "Tom Wick",
-              "lastname" : "Wick"
+              "person" : "Tom Wick",
+              "last" : "Wick"
           }
       ],
         "address": "3456 black dr. Bountiful Utah",
@@ -111,17 +116,18 @@
         "imageurl": "https://assets.churchofjesuschrist.org/ec/f8/ecf80a88e31429d0aa0eeec6e2c74851a4bf4235/nauvoo_temple_joseph_art_lds.jpeg"
       },
       {
-        "name": "company 6",
+        "name": "company",
+      "lastname": "1",
         "members":
         [
           {
-            "name" : "Benjamin",
-            "lastname": "Anderson"
+            "person" : "Benjamin",
+            "last": "Anderson"
             
           },
           {
-              "name" : "Tom Wick",
-              "lastname" : "Wick"
+              "person" : "Tom Wick",
+              "last" : "Wick"
           }
       ],
         "address": "3456 black dr. Bountiful Utah",
@@ -133,17 +139,18 @@
         "imageurl": "https://assets.churchofjesuschrist.org/ec/f8/ecf80a88e31429d0aa0eeec6e2c74851a4bf4235/nauvoo_temple_joseph_art_lds.jpeg"
       },
       {
-        "name": "company 7",
+        "name": "company",
+        "lastname": "1",
         "members":
         [
           {
-            "name" : "Benjamin",
-            "lastname": "Anderson"
+            "person" : "Benjamin",
+            "last": "Anderson"
             
           },
           {
-              "name" : "Tom Wick",
-              "lastname" : "Wick"
+              "person" : "Tom Wick",
+              "last" : "Wick"
           }
       ],
         "address": "3456 black dr. Bountiful Utah",
