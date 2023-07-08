@@ -1,0 +1,158 @@
+{
+  "companies": [
+    {
+      "name": "company 1",
+      "members":
+      [
+        {
+          "name" : "Benjamin",
+          "lastname": "Anderson"
+          
+        },
+        {
+            "name" : "Tom ",
+            "lastname" : "Wick"
+        }
+    ],
+      "address": "3456 black dr. Bountiful Utah",
+      "phonenumber": "1235551234",
+      "length": 14,
+      "order": 1,
+      "website": "url",
+      "membership": "Gold",
+      "imageurl": "https://assets.churchofjesuschrist.org/ec/f8/ecf80a88e31429d0aa0eeec6e2c74851a4bf4235/nauvoo_temple_joseph_art_lds.jpeg"
+    },
+    {
+        "name": "company 2",
+        "members":
+        [
+          {
+            "name" : "Benjamin",
+            "lastname": "Franklin"
+            
+          },
+          {
+              "name" : "Tommy",
+              "lastname" : "Grace"
+          }
+      ],
+        "address": "3456 gg lane Bountiful Utah",
+        "phonenumber": "1235551234",
+        "length": 14,
+        "order": 2,
+        "website": "url",
+        "membership": "NP",
+        "imageurl": "https://assets.churchofjesuschrist.org/ec/f8/ecf80a88e31429d0aa0eeec6e2c74851a4bf4235/nauvoo_temple_joseph_art_lds.jpeg"
+      },
+      {
+        "name": "company 3",
+        "members":
+        [
+          {
+            "name" : "Benjamin",
+            "lastname": "Anderson"
+            
+          },
+          {
+              "name" : "Tom Wick",
+              "lastname" : "Wick"
+          }
+      ],
+        "address": "3456 black dr. Bountiful Utah",
+        "phonenumber": "1235551234",
+        "length": 14,
+        "order": 3,
+        "website": "url",
+        "membership": "Gold",
+        "imageurl": "https://assets.churchofjesuschrist.org/ec/f8/ecf80a88e31429d0aa0eeec6e2c74851a4bf4235/nauvoo_temple_joseph_art_lds.jpeg"
+      },
+      {
+        "name": "company 4",
+        "members":
+        [
+          {
+            "name" : "Benjamin",
+            "lastname": "Anderson"
+            
+          },
+          {
+              "name" : "Tom Wick",
+              "lastname" : "Wick"
+          }
+      ],
+        "address": "3456 black dr. Bountiful Utah",
+        "phonenumber": "1235551234",
+        "length": 14,
+        "order": 4,
+        "website": "url",
+        "membership": "Gold",
+        "imageurl": "https://assets.churchofjesuschrist.org/ec/f8/ecf80a88e31429d0aa0eeec6e2c74851a4bf4235/nauvoo_temple_joseph_art_lds.jpeg"
+      },
+      {
+        "name": "company 5",
+        "members":
+        [
+          {
+            "name" : "Benjamin",
+            "lastname": "Anderson"
+            
+          },
+          {
+              "name" : "Tom Wick",
+              "lastname" : "Wick"
+          }
+      ],
+        "address": "3456 black dr. Bountiful Utah",
+        "phonenumber": "1235551234",
+        "length": 14,
+        "order": 5,
+        "website": "url",
+        "membership": "Gold",
+        "imageurl": "https://assets.churchofjesuschrist.org/ec/f8/ecf80a88e31429d0aa0eeec6e2c74851a4bf4235/nauvoo_temple_joseph_art_lds.jpeg"
+      },
+      {
+        "name": "company 6",
+        "members":
+        [
+          {
+            "name" : "Benjamin",
+            "lastname": "Anderson"
+            
+          },
+          {
+              "name" : "Tom Wick",
+              "lastname" : "Wick"
+          }
+      ],
+        "address": "3456 black dr. Bountiful Utah",
+        "phonenumber": "1235551234",
+        "length": 14,
+        "order": 6,
+        "website": "url",
+        "membership": "Gold",
+        "imageurl": "https://assets.churchofjesuschrist.org/ec/f8/ecf80a88e31429d0aa0eeec6e2c74851a4bf4235/nauvoo_temple_joseph_art_lds.jpeg"
+      },
+      {
+        "name": "company 7",
+        "members":
+        [
+          {
+            "name" : "Benjamin",
+            "lastname": "Anderson"
+            
+          },
+          {
+              "name" : "Tom Wick",
+              "lastname" : "Wick"
+          }
+      ],
+        "address": "3456 black dr. Bountiful Utah",
+        "phonenumber": "1235551234",
+        "length": 14,
+        "order": 7,
+        "website": "url",
+        "membership": "Gold",
+        "imageurl": "https://assets.churchofjesuschrist.org/ec/f8/ecf80a88e31429d0aa0eeec6e2c74851a4bf4235/nauvoo_temple_joseph_art_lds.jpeg"
+      }
+    ]
+}
