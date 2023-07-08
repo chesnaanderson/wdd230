@@ -733,19 +733,19 @@ li > img {
 	list-style: none;
 }
 
-* {
+/* * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-}
+} */
 
-main {
+/* main {
 	margin: 0 auto;
 	padding: 0.5rem;
 	max-width: 700px;
 	background-color: #fff;
 	font-family: Roboto, Helvetica, sans-serif;
-}
+} */
 
 .menu {
 	margin: 1rem auto;
@@ -786,9 +786,9 @@ section {
 	margin: 0.1rem;
 }
 
-.grid h3 {
+/* .grid h3 {
 	font-family: "Caveat", cursive;
-}
+} */
 
 .list {
 	display: flex;
