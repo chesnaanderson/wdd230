@@ -751,7 +751,7 @@ li > img {
 	margin: 1rem auto;
 	border: 1px solid rgba(0, 0, 0, 0.1);
 	padding: 0.5rem;
-	background-color: #bed;
+	background-color: rgb(207, 218, 215);
 	text-align: center;
 }
 
@@ -816,7 +816,7 @@ section {
 }
 
 .list section:nth-child(even) {
-	background-color: #bed;
+	background-color: rgb(207, 218, 215);
 }
 
 section h3 {
