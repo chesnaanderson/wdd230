@@ -513,7 +513,11 @@ aside {
 
   }
 
-
+ aside {
+  flex: 50%;
+  width: 22%;
+  margin: 1%;
+ }
   .sidebar {
     width: 50%;
     height: auto;
