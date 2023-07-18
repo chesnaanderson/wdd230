@@ -43,7 +43,7 @@ position: relative;
 .herolabel {
 text-align: center;
 position: absolute;
-top: 10%;
+top: 30%;
 left: 50%;
 transform: translate(-50%, -50%);
 color: rgb(50, 32, 53);

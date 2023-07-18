@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/larger.css">
     <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/weather.css">
     <link rel="icon" href="https://www.travelandleisure.com/thmb/O_l4b5JDWtEWKQ7mE7PoA3rQdVk=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/cascade-mountains-range-USMNTNS0720-db9bdf21ee2e47b1868232c551c01006.jpg">
     <meta property="og:title" content="Chesna Anderson">
     <meta property="og:type" content="website">
@@ -24,18 +25,19 @@
 <body>
   <div class="hero">
     <picture>
-        <source srcset="images/bountiful_chamber_small.webp" media="(max-width: 500px)">
-        <source srcset="images/bountiful_chamber_medium.webp" media="(max-width: 1000px)">
-        <img src="images/bountiful_chamber_large.webp" alt="Bountiful Utah" width="1500" height="750">
+        <source srcset="images/bountiful_chamber_image_small.webp" media="(max-width: 500px)">
+        <source srcset="images/bountiful_chamber_image_medium.webp" media="(max-width: 1000px)">
+        <img src="images/bountiful_chamber_image_large.webp" alt="Bountiful Utah" width="1500" height="750">
     </picture>
-  </div>
   <!-- <div class="hero-image">
     <img src="images/mountians_in_utah.jpg" alt="Utah Mountians" width="1335" 
       height="500">  -->
     <div class="herolabel">
       <h1>Bountiful Utah Chamber of Commerce</h1>
       <p></p>
-      <button>Join us!</button>
+      <a href="">
+        <button>Join us!</button>
+      </a>
     </div>
   </div>
   <button id="menu"></button>
@@ -45,64 +47,113 @@
         <li class="active"><a href="https://chesnaanderson.github.io/wdd230/chamber/index.html">Chamber</a></li>
         <li><a href="https://chesnaanderson.github.io/wdd230/week01/chamber-site-plan.html">Site Plan</a></li>
         <li><a href="https://chesnaanderson.github.io/wdd230/chamber/discover.html">Discover</a></li>
-        <li><a href="https://chesnaanderson.github.io/wdd230/chamber/Join.html">Survey</a></li>
+        <li><a href="https://chesnaanderson.github.io/wdd230/chamber/join.html">Survey</a></li>
         <li><a href="https://chesnaanderson.github.io/wdd230/chamber/directory.html">Directory</a></li>
       </ul>
     </nav>
-  <main>
+  <i>
     <h2>Bountiful Chamber of Commerce</h2>
-    <div class="row">
+    <div class="wrapper">
+      <aside>
+              <div id="weather-widget" class="sidebar">
+                <!-- <video poster="//cit261.bermonpainter.com/rain.jpg" id="video" playsinline autoplay muted loop>
+                  <source src="//cit261.bermonpainter.com/rain.webm" type="video/webm">
+                  <source src="//cit261.bermonpainter.com/rain.mp4" type="video/mp4">
+                </video> -->
+              
+                <div class="weather">
+                  <article class="weather-now">
+                    <ul>
+                      <li class="weather-now-day"></li>
+                      <li class="weather-now-date"></li>
+                      <li class="weather-now-location"></li>
+                    </ul>
+              
+                    <button class="weather-now-new-location" id="change-location-button"></button>
+                    
+                    <ul>
+                      <li class="weather-now-icon"> <span class="weather-description"></span></li>
+                      <li class="weather-now-tempurature"></li>
+                    </ul>
+              
+                    <dl class="weather-now-details">
+                      <dt>Feels Like</dt>
+                      <dd class="weather-now-precipitation"></dd>
+                    </dl>
+              
+                    <dl class="weather-now-details">
+                      <dt>Humidity</dt>
+                      <dd class="weather-now-humidity"></dd>
+                    </dl>
+              
+                    <dl class="weather-now-details">
+                      <dt>Wind</dt>
+                      <dd class="weather-now-wind"></dd>
+                    </dl>
+                  </article>
+              
+                  <aside class="weather-forecast">
+                    <h2>Weather Forecast</h2>
+                  </aside>
+                
+                <!-- <div id="mask-background"><button id="close-mask">Close</button></div> -->
+                <form id="change-location-form">
+                  <label for="zip">Enter your postal code</label>
+                  <input id="zipcode" type="number" name="zip" step="1" required />
+                  <button type="submit" id="change-location-form-submit">Update Location</button>
+                </form>
+              </div>
+            </aside>
+  <div class="content">
+    <!-- <div class="row">
       <div class="column">
-        <div class="card">
+        <div class="card"> -->
           <h3>The Bountiful Chamber of Comerce</h3>
             <p>The Bountiful Chamber of Commerce is a place for people and businesses alike to come and disocver more about Bountiful Utah. Come find business-to-business networking and events!</p> 
-        </div>
+        <!-- </div>
       </div>
       <div class="column">
-        <div class="card">
+        <div class="card"> -->
           <h3>Information and current events</h3>
           <ul>
             <li>Events that promote business-to-business networking: <a href="url">Events</a></li>
             <li>Contact information for the chamber's board of directors: <a href="url">Contacts</a></li>
             <li>Population growth in the area: <a href="url">A lot</a></li>
           </ul>
-        </div>
-      </div>
-      <div class="column">
+      
+      <!-- <div class="column">
         <div class="card">
-          <h3>Weather and such</h3>
-          <ul>
-              <li>Weather</li>
-              <li></li>
-          </ul>
-        </div>
-      </div>
-      <div class="column">
-        <div class="card">
-          <h3>Spotlights</h3>
+          <h3>Weather and such</h3> -->
+          
+        
+      
+      <!-- <div class="column">
+        <div class="card"> -->
+          <!-- <h3>Spotlights</h3>
           <ul>
             <li>Spotlight</li>
             <li>Spotlight</li>
             <li>Spotlight</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <div class="row">
+          </ul> -->
+        
+    <!-- <div class="row">
       <div class="column">
-        <div class="card">
+        <div class="card">-->
+          <div class="mountians"></div>
           <h3>Bountiful Utah Mountains</h3>
           <img src="images/cascade-mountains-range-.jpg" alt="mountians_in_utah" width="270"  height="220">
-        </div>
-      </div>
-      <div class="column">
-        <div class="card"> 
-          <h3>Bountiful Utah temple</h3>
-          <img src="images/220px-Bountiful_Temple.jpg" alt="220px-Bountiful_Temple" width="270"  height="220"> 
-        </div>
-      </div>
+          <div class="temple">  
+            <h3>Bountiful Utah temple</h3>
+            <img src="images/220px-Bountiful_Temple.jpg" alt="220px-Bountiful_Temple" width="270"  height="220"> 
+          </div>
+          </div>
+       <!-- <div class="column"> -->
+          
     </div>
+
+
   </main>
+  
   <footer>
     <p>
       copyright &copy; <span id="currentYear"></span> &#128151; Chesna Anderson for WDD230 - Bountiful Utah US &#128151;</p>
@@ -118,6 +169,7 @@
   <script src="scripts/getDates.js"></script>
   <script src="scripts/darkmode.js"></script>
   <script src="scripts/hamburgur.js"></script>
+  <script src="scripts/weather.js"></script>
 </body>
 </html>
 
