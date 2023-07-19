@@ -78,7 +78,11 @@ nav a {
 nav a:hover {
 	border: 1px solid #070000;
 } */
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 
+nav {
+  font-family:"", serif;
+}
 /*---------main-------*/
 main {
     background: rgb(255, 255, 255);
